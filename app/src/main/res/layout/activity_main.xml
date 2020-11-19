@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#050607"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:text="@string/pilih_menu"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/main_buttonMenu"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10px"
+            android:background="@drawable/diet"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnInfoaplikasi"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10px"
+            android:layout_weight="0.35"
+            android:background="@drawable/info"
+            android:text="" />
+
+        <Button
+            android:id="@+id/keluar"
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:background="@drawable/exit"
+            android:text="" />
+
+    </LinearLayout>
+</LinearLayout>
